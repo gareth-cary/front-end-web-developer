@@ -1,1 +1,119 @@
-// Specific CSS for your home-page
+.portfolio-title {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.programs {
+  text-align: center;
+  margin-bottom: 20px;
+  img {
+    width: 70%;
+  }
+}
+
+.typed-text-design {
+  font-size: 2px;
+}
+
+.background-home {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* not sure */
+@media (min-width: 1026px) {
+  .title {
+    text-align: center;
+    color: white;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 140px;
+  h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 29px;
+}
+  h2 {
+    font-size: 45px;
+    letter-spacing: 2px
+  }
+  p {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+ }
+}
+
+/* i Pad & i pad pro horizontal*/
+@media (max-width: 1025px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 17vh;
+    h1 {
+      font-size: 50px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 44px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 33px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+/* iPhone 6/7/8 */
+@media (max-width: 420px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 11vh;
+    h1 {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 22px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7vh;
+    h1 {
+      font-size: 31px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+    h2 {
+      font-size: 22px;
+      letter-spacing: 2px
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  }
+}// Specific CSS for your home-page

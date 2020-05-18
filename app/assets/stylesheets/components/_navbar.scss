@@ -1,12 +1,37 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.link-nav-bar-home {
+  color: white;
+  margin-right: 20px;
+  font-size: 19px;
+  z-index: 200000000;
+  position: relative;
+  font-family: 'Marmelad', sans-serif;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: white;
+  }
+  a {
+     z-index: 2000000000000000;
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.link-nav-bar-home-main {
+  color: white;
+  margin-right: 21px;
+  font-size: 23px;
+  z-index: 200000000000;
+  font-family: 'Marmelad', sans-serif;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: white;
+  }
+  a {
+    z-index: 20000000000000000;
+  }
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar {
+  z-index: 30000000000000000000000000;
+  position: relative;
 }
