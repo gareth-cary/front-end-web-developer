@@ -2,7 +2,7 @@
   color: white;
   margin-right: 20px;
   font-size: 19px;
-  z-index: 200000000;
+  z-index: 50000000000000;
   position: relative;
   font-family: 'Marmelad', sans-serif;
   &:hover {
@@ -11,7 +11,7 @@
     color: white;
   }
   a {
-     z-index: 2000000000000000;
+     z-index: 50000000000000;
   }
 }
 
@@ -19,7 +19,7 @@
   color: white;
   margin-right: 21px;
   font-size: 23px;
-  z-index: 200000000000;
+  z-index: 50000000000000;
   font-family: 'Marmelad', sans-serif;
   &:hover {
     text-decoration: none;
@@ -27,7 +27,7 @@
     color: white;
   }
   a {
-    z-index: 20000000000000000;
+  z-index: 50000000000000;
   }
 }
 

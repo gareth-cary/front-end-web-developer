@@ -10,12 +10,16 @@
   }
 }
 
+.title {
+  z-index: 10;
+}
+
 .typed-text-design {
   font-size: 2px;
 }
 
 .background-home {
-  padding-top: 30px;
+  padding-top: 77px;
   padding-bottom: 30px;
 }
 
@@ -28,6 +32,7 @@
     margin-left: 55px;
     margin-right: 55px;
     margin-top: 140px;
+    z-index: 10;
   h1 {
     font-size: 60px;
     letter-spacing: 5px;
@@ -53,6 +58,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 17vh;
+    z-index: 10;
     h1 {
       font-size: 50px;
       letter-spacing: 5px;
@@ -78,6 +84,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 11vh;
+    z-index: 10;
     h1 {
       font-size: 31px;
       letter-spacing: 5px;
@@ -102,6 +109,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 7vh;
+    z-index: 10;
     h1 {
       font-size: 31px;
       letter-spacing: 5px;
