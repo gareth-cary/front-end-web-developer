@@ -7,12 +7,12 @@
   .card-trip {
     overflow: hidden;
     background: white;
-    box-shadow: 0 0 22px 1px white;
+    box-shadow: 0 0 22px 1px black;
     width: 320px;
     margin-bottom: 20px;
     text-decoration: none;
     flex: 1;
-    font-family: 'Marmelad', sans-serif;
+    font-family: 'Tinos', serif;
   }
 
   .card-trip:hover {
@@ -32,12 +32,14 @@
     font-size: 14px;
     font-weight: bold;
     margin: 0;
+    font-family: 'Tinos', serif;
   }
 
   .card-trip p {
     font-size: 13px;
     opacity: .7;
     margin: 0;
+    font-family: 'Tinos', serif;
   }
 
 
@@ -47,8 +49,8 @@
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
   }
 
   .card-trip-infos .card-trip-user {
