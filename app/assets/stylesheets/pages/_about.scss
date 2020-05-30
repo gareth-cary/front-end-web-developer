@@ -1,75 +1,45 @@
-.gareth-cary-image {
-  width: 100%;
-  min-width: 300px;
-  box-shadow: 0 0 20px 3px white;
-  margin-bottom: 20px;
+.whole-about-page {
+  background-image: url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Tinos', serif;
+  h3 {
+    font-family: 'Tinos', serif;
+  }
 }
 
+.content-about-page {
+  padding-top: 7%;
+  padding-left: 17%;
+  width: 60%;
+}
 
 .position-info-title {
-  color: white;
-  font-family: 'Marmelad', sans-serif;
-  z-index: 10000;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-family: 'Tinos', serif;
 }
 
-.background-stuff {
-  margin-bottom: 15px;
+.quotes-image-about {
+  width: 40px;
+  position: relative;
+  right: 9%;
+  top: 20px;
 }
 
-.image-programs {
-  text-align: center;
-  width: 100%;
+.quotes-image-about2 {
+  width: 40px;
+  position: relative;
+    left: 100%;
+    bottom: 15%;
 }
 
-
-.border-line-about {
-  padding-bottom: 10px;
-}
-
-.about-title {
- h1 {
+.title-about-page {
   font-size: 30px;
-  z-index: 10;
- }
+  font-family: 'Tinos', serif;
 }
 
-
-@media (min-width: 500px) {
-  .gareth-cary-image {
-    width: 100%;
-    min-width: 300px;
-    box-shadow: 0 0 20px 3px white;
-    margin-bottom: 20px;
-}
-
-
-.position-info-title {
-  color: white;
-  font-family: 'Marmelad', sans-serif;
-  z-index: 10000;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.background-stuff {
-  margin-bottom: 15px;
-}
-
-.image-programs {
-  text-align: center;
-  width: 100%;
-}
-
-
-.border-line-about {
-  padding-bottom: 10px;
-}
-
-.about-title {
- h1 {
-  font-size: 60px;
- }
-}
+.key-skills {
+  font-size: 20px;
+  font-family: 'Tinos', serif;
 }
