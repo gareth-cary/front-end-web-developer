@@ -1,37 +1,16 @@
-// .button {
-//   font-size: 20px;
-//   min-width: 400px;
-//   text-decoration: none;
-//   color: black;
-//   background-color: white;
-
-//   text-align: center;
-//   padding: 12px 25px;
-//   position: relative;
-//   font-family: 'Marmelad', sans-serif;
-// }
-
-// .button:hover {
-//   text-decoration: none;
-//   color: white;
-
-//   transition: 0.7s;
-//   background-color: grey;
-// }
-
-
-// @media (min-width: 800px) {
-//   .button {
-//   font-size: 30px;
-//   min-width: 400px;
-//   text-decoration: none;
-//   color: black;
-//   background-color: white;
-
-//   text-align: center;
-//   padding: 13px 24px;
-//   position: relative;
-//   font-family: 'Marmelad', sans-serif;
-// }
-
-// }
+.button {
+  margin-left: 17%;
+  border: 2px solid black;
+  padding: 12px 20px;
+  color: black;
+  background: whitesmoke;
+  text-decoration: none;
+  font-family: 'Tinos', serif;
+  font-size: 23px;
+  &:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+}
