@@ -28,11 +28,12 @@
  padding-right: 5px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .nav-bar-one {
     a {
       margin-right: 0;
       padding: 1px 4px;
+      font-size: 12px;
     }
   }
 }
