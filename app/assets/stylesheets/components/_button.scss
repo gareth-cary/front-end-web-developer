@@ -1,12 +1,12 @@
 .button {
   margin-left: 19%;
-  border: 2px solid black;
+  box-shadow: 0px 0px 18px black;
   padding: 12px 20px;
   color: black;
   background: whitesmoke;
   text-decoration: none;
   font-family: 'Tinos', serif;
-  font-size: 30px;
+  font-size: 35px;
   &:hover {
     text-decoration: none;
     color: white;
@@ -60,6 +60,7 @@
   font-family: 'Tinos', serif;
   font-size: 24px;
   border: none;
+  box-shadow: 0px 0px 18px black;
   &:hover {
     color: white;
     background-color: grey;

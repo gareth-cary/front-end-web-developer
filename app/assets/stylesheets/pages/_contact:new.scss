@@ -18,14 +18,16 @@
 
 .text_area_contact {
   width: 40%;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 18px grey;
 }
 
 .message_area_contact {
   width: 40%;
   height: 200px;
-  border-radius: 10px;
-  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0px 0px 18px grey;
+  border: none;
 }
 
 .label_contact {

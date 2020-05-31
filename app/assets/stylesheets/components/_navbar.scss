@@ -4,6 +4,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5%;
+  z-index: 10000000000000000000;
   a {
     color: white;
     margin-right: 1%;
@@ -11,6 +12,7 @@
     padding: 0.5% 20px;
     border-radius: 5px;
     font-family: 'Tinos', serif;
+    z-index: 2000000000000000000000;
     &:hover {
       background-color: white;
       color: black;
