@@ -1,5 +1,5 @@
 .button {
-  margin-left: 17%;
+  margin-left: 19%;
   border: 2px solid black;
   padding: 12px 20px;
   color: black;
@@ -20,11 +20,47 @@
   position: relative;
   bottom: 40px;
   font-family: 'Tinos', serif;
-  border: 1px solid black;
   font-size: 24px;
+  border: none;
   &:hover {
     color: white;
     background-color: grey;
     transition: 0.5s;
+  }
+}
+
+@media (max-width: 830px) {
+  .button {
+    position: relative;
+    bottom: 29px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .button {
+    margin-left: 0;
+    font-size: 18px;
+    margin-left: 0%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 370px) {
+  .button {
+    margin-left: 0;
+    font-size: 16px;
+    margin-left: 0%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    padding: 10px 18px;
   }
 }

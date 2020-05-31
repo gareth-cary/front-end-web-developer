@@ -22,8 +22,8 @@
 }
 
 .title {
-  padding-left: 17%;
-  padding-top: 17%;
+  padding-left: 19%;
+  padding-top: 15%;
   width: 75%;
   h1 {
     font-family: 'Tinos', serif;
@@ -33,6 +33,10 @@
     font-family: 'Tinos', serif;
     font-size: 42px;
     margin-right: 10px
+  }
+  h3 {
+    font-family: 'Tinos', serif;
+    font-size: 42px;
   }
   p {
     font-family: 'Tinos', serif;
@@ -45,132 +49,185 @@
   align-items: baseline;
 }
 
-// .portfolio-title {
-//   font-family: 'Noto Sans JP', sans-serif;
-// }
+@media (max-width: 850px) {
+  .title {
+    padding-top: 9%;
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .quotes-image2 {
+    left: 75%;
+  }
+}
 
-// .programs {
-//   text-align: center;
-//   margin-bottom: 20px;
-//   img {
-//     width: 70%;
-//   }
-// }
+@media (max-width: 680px) {
+  .title {
+    padding-top: 9%;
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .quotes-image2 {
+    left: 75%;
+  }
+}
 
-// .title {
-//   z-index: 10;
-// }
+@media (max-width: 420px) {
+  .home-whole-content {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url(https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=638&q=80);
+  }
 
-// .typed-text-design {
-//   font-size: 2px;
-// }
+  .title {
+    width: 100%;
+    padding-top: 32%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    h1 {
+      font-size: 30px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .quotes-image {
+    right: 54%;
+    top: 15px;
+    width: 20px;
+  }
+  .quotes-image2 {
+    left: 54%;
+    width: 22px;
+  }
+  .front-end-title {
+    font-size: 24px;
+  }
+  .key-javascript {
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
 
-// .background-home {
-//   padding-top: 77px;
-//   padding-bottom: 30px;
-// }
 
-// /* not sure */
-// @media (min-width: 1026px) {
-//   .title {
-//     text-align: center;
-//     color: white;
-//     font-family: 'Marmelad', sans-serif;
-//     margin-left: 55px;
-//     margin-right: 55px;
-//     margin-top: 140px;
-//     z-index: 10;
-//   h1 {
-//     font-size: 60px;
-//     letter-spacing: 5px;
-//     margin-bottom: 29px;
-// }
-//   h2 {
-//     font-size: 45px;
-//     letter-spacing: 2px
-//   }
-//   p {
-//     font-size: 32px;
-//     letter-spacing: 1px;
-//   }
-//  }
-// }
+@media (max-width: 380px) {
+  .home-whole-content {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url(https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=638&q=80);
+  }
 
-// /* i Pad & i pad pro horizontal*/
-// @media (max-width: 1025px) {
-//   .title {
-//     color: white;
-//     text-align: center;
-//     font-family: 'Marmelad', sans-serif;
-//     margin-left: 10px;
-//     margin-right: 10px;
-//     margin-top: 17vh;
-//     z-index: 10;
-//     h1 {
-//       font-size: 50px;
-//       letter-spacing: 5px;
-//       margin-bottom: 40px;
-//   }
-//     h2 {
-//       font-size: 44px;
-//       letter-spacing: 2px
-//     }
-//     p {
-//       font-size: 33px;
-//       letter-spacing: 1px;
-//     }
-//   }
-// }
+  .title {
+    width: 100%;
+    padding-top: 32%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    h1 {
+      font-size: 30px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .quotes-image {
+    right: 54%;
+    top: 15px;
+    width: 20px;
+  }
+  .quotes-image2 {
+    left: 54%;
+    width: 22px;
+  }
+  .front-end-title {
+    font-size: 24px;
+  }
+  .key-javascript {
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
 
-// /* iPhone 6/7/8 */
-// @media (max-width: 420px) {
-//   .title {
-//     color: white;
-//     text-align: center;
-//     font-family: 'Marmelad', sans-serif;
-//     margin-left: 10px;
-//     margin-right: 10px;
-//     margin-top: 11vh;
-//     z-index: 10;
-//     h1 {
-//       font-size: 31px;
-//       letter-spacing: 5px;
-//       margin-bottom: 40px;
-//       z-index: 10;
-//   }
-//     h2 {
-//       font-size: 22px;
-//       letter-spacing: 2px
-//     }
-//     p {
-//       font-size: 20px;
-//       letter-spacing: 1px;
-//     }
-//   }
-// }
 
-// @media (max-width: 370px) {
-//   .title {
-//     color: white;
-//     text-align: center;
-//     font-family: 'Marmelad', sans-serif;
-//     margin-left: 10px;
-//     margin-right: 10px;
-//     margin-top: 7vh;
-//     z-index: 10;
-//     h1 {
-//       font-size: 31px;
-//       letter-spacing: 5px;
-//       margin-bottom: 40px;
-//       z-index: 10;
-//   }
-//     h2 {
-//       font-size: 22px;
-//       letter-spacing: 2px
-//     }
-//     p {
-//       font-size: 20px;
-//       letter-spacing: 1px;
-//     }
-//   }
-// }// Specific CSS for your home-page
+@media (max-width: 370px) {
+  .home-whole-content {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url(https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=638&q=80);
+  }
+
+  .title {
+    width: 100%;
+    padding-top: 30%;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+    h1 {
+      font-size: 26px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 26px;
+    }
+    h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .quotes-image {
+    right: 55%;
+    top: 15px;
+    width: 20px;
+  }
+  .quotes-image2 {
+    left: 55%;
+    width: 22px;
+  }
+  .front-end-title {
+    font-size: 24px;
+  }
+  .key-javascript {
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+

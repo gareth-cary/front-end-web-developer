@@ -23,6 +23,16 @@
 
 .copyright {
  float: right;
+ padding-top: 4px;
  color: white;
  padding-right: 5px;
+}
+
+@media (max-width: 420px) {
+  .nav-bar-one {
+    a {
+      margin-right: 0;
+      padding: 1px 4px;
+    }
+  }
 }
