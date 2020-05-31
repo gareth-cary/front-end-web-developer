@@ -55,9 +55,12 @@
   .message_area_contact {
     height: 100px;
     width: 50%;
+
   }
   .text_area_contact {
     width: 50%;
+    margin-bottom: -25px;
+
   }
   .label_contact {
     font-size: 12px;
@@ -90,6 +93,8 @@
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+
+
   }
   .message_area_contact {
     width: 90%;
@@ -99,6 +104,7 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 100px;
+
   }
   .phone-contact {
     padding-left: 0%;
@@ -112,5 +118,20 @@
   }
   .label_contact {
     padding-left: 5%;
+
+  }
+  #contact_name {
+      margin-bottom: -20px;
+  }
+  #contact_email {
+  margin-bottom: -20px;
   }
 }
+
+
+
+
+
+
+
+
