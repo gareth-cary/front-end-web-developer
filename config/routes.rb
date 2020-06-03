@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   resources :contacts, only: [:new, :create]
   root to: 'pages#home'
   get 'about', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
   get 'portfolio', to: 'pages#portfolio'
 end
