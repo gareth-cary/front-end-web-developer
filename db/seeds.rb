@@ -34,7 +34,7 @@ Website.create(title: 'Wedding Singer',
 Website.create(title: 'World Maps',
   link: 'https://worldmaps134.herokuapp.com/',
   name: 'https://worldmaps134.herokuapp.com/',
-  description: 'Online places visited record',
+  description: 'A record of places visited in the world',
   image: 'https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80')
 
 puts "done......"
