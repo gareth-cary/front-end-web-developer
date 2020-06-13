@@ -1,7 +1,8 @@
-@media (min-width: 1050px) {
-  .all-cards-list {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
+.whole-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 10px;
 }
 
   .card-trip {
@@ -68,11 +69,25 @@
   }
 
   .all-cards-list {
-    display: grid;
     justify-content: space-evenly;
-    margin-right: 10%;
-    margin-left: 10%;
     z-index: 2000000000;
     position: relative;
   }
 
+@media (max-width: 1377px) {
+  .whole-card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .whole-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .whole-card {
+    grid-template-columns: 1fr;
+  }
+}

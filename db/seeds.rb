@@ -31,4 +31,10 @@ Website.create(title: 'Wedding Singer',
   description: 'Wedding Singer Alexandra Lansdale',
   image: 'https://images.unsplash.com/photo-1482575832494-771f74bf6857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
 
+Website.create(title: 'World Maps',
+  link: 'https://worldmaps134.herokuapp.com/',
+  name: 'https://worldmaps134.herokuapp.com/',
+  description: 'Online places visited record',
+  image: 'https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80')
+
 puts "done......"

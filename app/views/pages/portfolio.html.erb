@@ -7,9 +7,11 @@
 
   <br>
   <br>
+
+
   <div class="all-cards-list">
-    <% @websites.each do |website| %>
     <div class="whole-card">
+    <% @websites.each do |website| %>
       <%= link_to "#{website.link}", class: "link-blue-line" do %>
       <div class="card-trip">
         <img src="<%= website.image %>" alt="#">
@@ -21,10 +23,11 @@
           </div>
         </div>
       </div>
+    <% end %>
+    <% end %>
     </div>
-    <% end %>
-    <% end %>
   </div>
+
   <p class="get-in-contact">If you would like to get in contact please follow the link below</p>
   <%= link_to "Contact",  new_contact_path, class: "get-in-contact-link" %>
   <br>
