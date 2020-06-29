@@ -8,18 +8,18 @@
       <div>
         <%= form_for @contact do |f| %>
 
-        <%= f.label :name, class: 'label_contact' %><br>
-        <%= f.text_field :name, required: true, class: 'text_area_contact' %>
+        <br>
+        <%= f.text_field :name, required: true, class: 'text_area_contact', placeholder: " Name" %>
 
         <br>
 
-        <%= f.label :email, class: 'label_contact' %><br>
-        <%= f.email_field :email, required: true, class: 'text_area_contact' %>
+        <br>
+        <%= f.email_field :email, required: true, class: 'text_area_contact', placeholder: " Email Address"  %>
 
         <br>
 
-        <%= f.label :message, class: 'label_contact' %><br>
-        <%= f.text_area :message, as: :text, class: 'message_area_contact' %>
+        <br>
+        <%= f.text_area :message, as: :text, class: 'message_area_contact', placeholder: " Write a Message..."  %>
 
         <div class="hidden">
           <%= f.label :nickname %><br>
