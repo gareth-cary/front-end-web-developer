@@ -227,7 +227,19 @@
 }
 
 
-
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- tsparticles container ---- */
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #09015f;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 

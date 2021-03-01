@@ -26,3 +26,53 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicBannerText();
     }
 });
+
+window.addEventListener('DOMContentLoaded', (event) => {
+
+tsParticles.load("tsparticles", {
+  fpsLimit: 60,
+  background: {
+    color: "#f6f5f5"
+  },
+  backgroundMode: {
+    enable: true
+  },
+  particles: {
+    color: {
+      value: ["#f6f5f5", "#f6f5f5", "#f6f5f5"]
+    },
+    links: {
+      color: "#f6f5f5",
+      enable: true
+    },
+
+    move: {
+      enable: true,
+      speed: 2
+    },
+    number: {
+      value: 200
+    },
+    size: {
+      value: 1,
+      random: {
+        enable: true,
+        minimumValue: 1
+      },
+      animation: {
+        enable: true,
+        speed: 1.5,
+        minimumValue: 1
+      }
+    },
+    opacity: {
+      value: 0.9,
+      random: {
+        enable: true,
+        minimumValue: 0.4
+      }
+    }
+  }
+});
+});
+//= require particles.min

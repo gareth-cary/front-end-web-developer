@@ -104,6 +104,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
+    particlesjs-rails (2.0.0)
     pg (1.2.3)
     public_suffix (4.0.5)
     puma (4.3.3)
@@ -210,6 +211,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mail_form
+  particlesjs-rails
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.0.3)
